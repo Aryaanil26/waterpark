@@ -1,0 +1,58 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins",sans-serif ;   
+}
+#logo,h1,h2,h3{
+    font-family: "Playfair Display", serif;
+}
+header{
+    height: 72px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.logo{
+     font-size: 2rem;
+     text-decoration: none;
+     color: blue;
+}
+.list{
+    display: flex;
+    flex-direction:row;
+    gap: 1.5rem;
+    list-style: none;
+    text-decoration: none;
+}
+#section1{
+    background-color: rgb(102, 102, 216);
+}
+#section2{
+    background-color: rgb(102, 102, 216);
+}
+#section3{
+    background-color:rgb(102, 102, 216);
+} 
+.foot{
+    background-color: rgb(7, 216, 216);
+}
+.button{
+   background-color: rgb(59, 59, 228);
+   display: inline-block;
+   padding: 0.2rem 1rem;
+   border-radius: 0.2rem;
+    text-decoration: none;
+    color:white;
+}
